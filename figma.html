@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="figma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Figma Prototype</title>
+</head>
+
+
+<body>
+    <!-- ligne violette du haut-->
+    <div id="entete" >
+        Meet FigJam , our new online whiteboard for teams to explore ideas together. <a href="">Learn more </a>
+        <button type="button" class="btn-close" aria-label="Close"></button>
+    </div>
+
+    <!-- navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="figma_assets/logo.png" alt="logo figma"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" >
+       
+           
+
+            <!-- bouton nav bar-->
+
+            <ul class="navbar-nav ">
+
+                <!-- bouton 1-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                      Products</a>
+                   
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Design</a></li>
+                      <li><a class="dropdown-item" href="#">Protototyping</a></li>
+                      <li><a class="dropdown-item" href="#">Design systems</a></li>
+                      <li><a class="dropdown-item" href="#">Downloads</a></li>
+                      
+                </ul>
+                  </li>
+
+             <!-- bouton 2-->
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                  Enterprise</a>
+               
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Customers</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Sales</a></li>
+                  
+            </ul>
+              </li>
+
+              <!--bouton 3-->
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+
+              <!-- bouton 4-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                  Community</a>
+               
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Events</a></li>
+                  <li><a class="dropdown-item" href="#">Best practices</a></li>
+                  <li><a class="dropdown-item" href="#">Education program</a></li>
+                  <li><a class="dropdown-item" href="#">User groups</a></li>
+                  
+            </ul>
+              </li>
+
+              <!-- bouton 5-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                  Company</a>
+               
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Careers </a></li>
+                  <li><a class="dropdown-item" href="#">Our story</a></li>
+                  <li><a class="dropdown-item" href="#">Help Center</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Log in</a>
+              </li>
+              <li class="nav-item dropdown">
+              <button type="button" class="btn btn-dark">Sign up</button>
+              </li>
+              </ul>
+        </li>
+
+
+          </div>
+        </div>
+      </nav>
+
+    <!--1er block avec image-->
+    <div class="container-fluid" id="premierbloc">
+        <div class="row">
+            <div id="bloc1" class=" col-12 col-md-6" >
+       <p>Protototyping features</p>  
+        <p class="fw-bold">Prototype while you design, and vice versa</p> <br />
+        <p >Bring your ideas to life in animated prototypes. Test concepts earlier and more often. Create a better
+            blueprint
+            for development. </p>
+        <br />
+        <button type="button" class="btn btn-dark">Get started</button>
+        </div>
+
+        <div id="bloc2" class="col-12  col-md-6">
+        <img src="figma_assets/image_1.png" alt="prototype" id="image1" >
+    </div>
+    </div>
+      </div>
+      
+       
+
+    <!-- 2e bloc avec video 1-->
+    <div id="deuxieme" class="container-fluid" style="padding: 30px;">
+        <div class="row">
+        <div id="blocvideo" class="col-12 col-md-6">
+        <h1>Create prototypes that feel like the real experience</h1>
+        
+            Turn your static design files into an interactive experience - no cofing required.</p>
+        <ul>
+            <li> <strong>Intuitive build :</strong> Simply connect UI elements and choose your itneractions
+                and animations . </li>
+            <li><strong>Interactions :</strong> Define subtle interactions, like on click, while hovering, while
+                pressing
+                a button, and more.</li>
+            <li><strong>Mobile-optimized:</strong> details like device frames and momentum scrolling make your
+                prototypes
+                feel like the real experience.</li>
+        </ul>
+   
+    </div>
+
+    <div id="video" class="col-12 col-md-6">
+
+        <video id="video1" src="figma_assets/video_1.mp4" type="video/mp4"preload autoplay loop muted > </video>
+
+    </div>
+    </div>
+    </div>
+
+
+    <!-- Bloc 3 avec video 2-->
+    <div id="troisieme"class="container-fluid" style="padding:70px;">
+        <div class="row">
+            <div id="video_2" class="col-12 col-md-6">
+                <video id="video2" src="figma_assets/video_2.mp4" type="video/mp4" preload autoplay loop muted  > </video>
+            </div>
+            <div id="textvideo_2" class="col-12 col-md-6">
+        <h1 >Show, don’t tell your interaction vision</h1>
+        <p>
+            Take the guesswork out of development by spelling out the interaction details you envision.</p>
+        <ul>
+            <li><strong>Advanced transitions with Smart Animate:</strong> Automagically animate similar objects
+                and create detailed transitions.</li>
+            <li><strong>Dynamic overlays: </strong>Create multiple layers of interactive content overlays.</li>
+            <li> <strong>Animated GIFs:</strong>Use GIFs to represent motion designs, video elements, and subtle
+                animations.</li> 
+        </ul>
+       
+    </div>
+       </div>
+    </div>
+    
+
+    <!-- bloc 4 citation-->
+    <div class="container-fluid " style="background-color: cornflowerblue;height: 600px">
+        <div  class="justify-content-lg-center" id="citation" style="padding-left: 30px;padding-right: 30px;padding-top: 70px;padding-bottom: 70px;">
+        
+            <p class="fs-1 fw-bold " style="font-family:Arial, Helvetica, sans-serif;font-weight: 700;">" We run a really fast design process. We’re constantly building, testing, and iterating.
+            Being able to pull together a prototype in Figma so quickly and easily is massive for us. "</p>
+      
+
+       <p> Beth Horne, Senior User Researcher at Bulb</p>
+    </div>
+    </div>
+
+    <!-- bloc 5 avec video 3-->
+    <div id="cinquieme" class="container-fluid" style="padding: 70px;">
+        <div class="row">
+            <div id="text"class="col-md-6">
+        <h1>Do it all in one single tool</h1>
+
+        <p>No more jumping between tools. Design, prototype, share, and collect feedback all in Figma.</p>
+        <ul>
+            <li><strong>All-in-one platform:</strong> Toggle between your design file and live prototype. Design edits
+                appear instantly in your prototype.</li>
+            <li><strong>Shareable prototype:</strong> Share a link to your prototype. View it anywhere with Internet.
+            </li>
+            <li><strong>Embedded commenting:</strong> Comment in a prototype. They carry over into the design file—so
+                nothing gets lost.</li>
+        </ul>
+        </div>
+
+        <div id="video_3" class="col-md-6">
+            <video src="figma_assets/video_3.mp4" type="video/mp4" preload autoplay loop muted width="500px" height="500px"  > 
+            
+            </video>
+        </div>
+        
+    </div>
+    </div>
+
+    <!-- bloc 6 sans media-->
+    <div class="container-fluid " id="bloc6" >
+
+        <h2 class="titre">Other ways to use Figma prototypes</h2>
+        
+        <div class="row row-cols-2 " id="bloc6">
+            
+            <div class="col"><i class="fas fa-asterisk">Observe a test subject in research sessions</i></div>
+            <div class="col"><i class="fas fa-asterisk">Create presentation slides to pitch your work</i></div>
+            <div class="col "><i class="fas fa-asterisk">Interact with live prototypes in Notion or Dropbox</i></div>
+            <div class="col "><i class="fas fa-asterisk">Integrate with third-party Protototyping tools</i></div>
+          </div>
+    </div>
+
+
+    <!-- bloc 7 avec 3 images-->
+    <div id="img" class="container" >
+       
+        <h1 >See how Figma can help you design from start to finish</h1>
+
+<div class="row" >
+
+        <div id="img1" class="col-12 col-md-4" >
+       <img src="figma_assets/image_2.png" alt="design" width="360px" height="360px">
+       <p class="text-start">Design</p>
+       <p> <a href="" style="text-decoration: none;">Learn more </a> </p>
+    </div>
+       <br>
+      <div id="img2" class="col-12 col-md-4">
+            <img src="figma_assets/image_3.png" alt="design system" width="360px" height="360px">
+        <p class="text-start">Design Systems </p>
+        <a href="" style="text-decoration: none;">Learn more </a>
+        </p>
+    </div>
+<br>
+    <div id="img3" class="col-12 col-md-4" >
+            <img src="figma_assets/image_4.png" alt="collaboration" width="360px" height="360px">
+        <p class="text-start">Collaboration</p>
+        <a href="" style="text-decoration: none;" >Learn more </a>
+        </p>
+        </div>
+        </div>
+        </div>
+
+    </div>
+    <!-- bloc connexion-->
+
+    <div class="container-fluid"  id="connexion" >
+
+    <div id="tryfigma" style="padding-bottom: 30px;">
+    <h1 class="text-center ">
+        Try Figma for free.</h1>
+     </div>
+
+      <!-- div bouton-->
+<div class="container-sm">
+    <div id="button" class="d-flex justify-content-center flex-column col-12" >
+
+        <button type="button" class="btn btn-outline-dark btn-lg ">Sign up with Google</button>
+    <br>
+     <p class="text-center">or</p>
+    <br>
+    <button type="button" class="btn btn-outline-dark btn-lg ">Email</button> <br>
+    <button type="button" class="btn btn-outline-dark btn-lg ">Password</button> <br/>
+    <buttonbtn type="button" class="btn btn-dark  btn-lg ">Create account</button>
+</div>
+</div>
+
+<!--texte en dessous des boutons-->
+<div class="text-center" id="signup">
+    <p> <a href="">Sign up with SAML SSO</a></p>
+    <br>
+    
+</div>
+   
+    </div>
+
+    <!-- privacy policy-->
+
+    
+    <div class="container" style="padding: 70px;" >
+
+        <div class="text-center">
+            <p>Already have an account? <a href="">Log in</a>
+        This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a> and <a href="">
+            Terms of Service </a> apply.
+        By clicking "Create account", I agree to Figma's <a href="">TOS</a> and <a href=""> Privacy Policy.</a>
+    </p>
+</div>
+</div>
+    </div>
+
+    <footer>
+        <!-- reseaux sociaux-->
+        <div class="container-md">
+        <div class="row"> 
+            <div id="colonne1" class="col-md-2">
+               
+
+                <ul class="lh-lg">
+                    <h3>Figma</h3>
+                <i class="fab fa-twitter">Twitter</i>
+                <i class="fab fa-youtube">Youtube</i>
+                <i class="fab fa-instagram">Instagram</i>
+                <i class="fab fa-facebook-square">Facebook</i>
+                Manage Cookie
+                </ul>
+
+    </div>
+            
+        
+
+        <!-- use cases-->
+        <div id="colonne2" class="col-md-2">
+            
+            <ul class="lh-lg"style="list-style-type: none;">
+
+                <p>Use Cases</p>
+
+           <li> <a href=""  class="text-reset" style="text-decoration: none;">UI design</a></li>
+           <li><a href=""  class="text-reset"style="text-decoration: none;">UX design</a></li>
+           <li><a href=""  class="text-reset"style="text-decoration: none;">Graphic design</a></li>
+           <li><a href=""  class="text-reset"style="text-decoration: none;">Wireframing</a></li>
+           <li><a href=""  class="text-reset"style="text-decoration: none;">Diagramming</a></li>
+           <li><a href="" class="text-reset" style="text-decoration: none;">Brainstorming</a></li>
+            <li><a href=""  class="text-reset"style="text-decoration: none;">Templates</a></li>
+            <li><a href=""  class="text-reset"style="text-decoration: none;">Remote design</a></li>
+
+        </ul>
+    </div>
+
+        <!-- Explore-->
+        <div id="colonne3" class="col-md-2">
+            
+
+            <ul class="lh-lg"style="list-style-type: none;">
+                <p>Explore</p>
+           <li> <a href=""  class="text-reset"style="text-decoration: none;"> Design features</a></li>
+           <li> <a href=""  class="text-reset"style="text-decoration: none;">Prototyping features</a></li>
+            <li><a href=""  class="text-reset"style="text-decoration: none;">Design systems features</a></li>
+             <li> <a href=""  class="text-reset"style="text-decoration: none;" >Collaboration features</a></li>
+             <li> <a href=""  class="text-reset"style="text-decoration: none;" >FigJam</a></li>
+              <li> <a href=""  class="text-reset"style="text-decoration: none;">Pricing</a></li>
+               <li><a href=""  class="text-reset"style="text-decoration: none;" >Figma Organization</a></li>
+                  <li> <a href=""  class="text-reset"style="text-decoration: none;" >Students and educators</a></li>
+               <li> <a href=""   class="text-reset"style="text-decoration: none;" >Customers</a></li>
+                 <li> <a href=""  class="text-reset"style="text-decoration: none;" >Security</a></li>
+               <li><a href=""  class="text-reset"style="text-decoration: none;" >Integrations</a></li>
+              <li>  <a href=""  class="text-reset"style="text-decoration: none;"></a>Contact</a></li>
+
+         </ul>                                      
+        </div>
+
+        <!-- Ressource-->
+        <div id="colonne4" class="col-md-2">
+           
+            <ul class="lh-lg"style="list-style-type: none;">
+                <p>Resources</p>
+ <li> <a href="" class="text-reset"style="text-decoration: none;" >Blog </a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;">Best practices</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;">Support</a></li>
+ <li><a href="" class="text-reset"style="text-decoration: none;" >Developers</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;">Learn design</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;">Downloads</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;" >What's new</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;" >Releases</a></li>
+ <li> <a href=""class="text-reset" style="text-decoration: none;" >Careers</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;">About us</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;" >Agency partners</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;">Privacy</a></li>
+ <li> <a href="" class="text-reset"style="text-decoration: none;" >Status </a></li>
+</ul>
+</div>
+
+ <!-- Compare -->
+ <div id="colonneS5" class="col-md-2">
+    
+    <ul class="lh-lg"style="list-style-type: none;">
+        <p>Compare</p>
+  <li> <a href=""class="text-reset" style="text-decoration: none;"></a>Sketch</a></li>
+  <li> <a href=""class="text-reset"style="text-decoration: none;" ></a>Adobe XD</a></li>
+  <li> <a href="" class="text-reset"style="text-decoration: none;"></a>Invision Studio</a></li>
+  <li> <a href=""class="text-reset"style="text-decoration: none;" ></a>Framer</a></li>
+  <li> <a href="" class="text-reset"style="text-decoration: none;"></a>Design on Windows</a></li>
+ </ul>
+</div>
+  
+</div>
+</div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

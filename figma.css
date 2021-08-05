@@ -1,0 +1,51 @@
+#entete {
+    background-color: mediumpurple;
+    text-align: center;
+
+}
+
+#premierbloc {
+    background-color:#699bf7;height:auto;
+}
+
+#bloc1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#image1 {
+    width:100%;
+    height:auto;
+}
+
+#video1 {
+     width:500px; height:500px;
+}
+
+#video2{
+    width:500px; height:500px;
+}
+
+.titre {text-align: center;font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: min(0.555em,30px);}
+
+  #img{
+    padding-top: 70px;padding-bottom: 70px;
+  }
+
+  #bloc6{
+    background-color:#699bf7 ;
+    padding: 70px;
+  }
+
+  #connexion {
+    padding-left: 300px;padding-right: 300px;
+  }
+
+#signup {
+   text-decoration:none;
+}
